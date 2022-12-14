@@ -1,26 +1,23 @@
 env:
-  es6: true
-  node: true
+    es6: true
+    node: true
 extends:
-  - 'eslint:recommended'
+    - "eslint:recommended"
 parserOptions:
-  ecmaVersion: 2018
+    ecmaVersion: 2018
 rules:
-  indent:
-    - error
-    - 4
-  linebreak-style:
-    - error
-    - unix
-  quotes:
-    - error
-    - single
-  semi:
-    - error
-    - always
-  no-console: off
+    indent:
+        - error
+        - 4
+    linebreak-style:
+        - error
+        - unix
+    semi:
+        - error
+        - always
+    no-console: off
 globals:
-  window: true
-  fetch: true
-  Headers: true
-  document: true
+    window: true
+    fetch: true
+    Headers: true
+    document: true
